@@ -1,0 +1,265 @@
+body {
+  margin: 0px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+  #topbar {
+    background-color: #7A0000;
+    width: 100%;
+    height: 45px;
+    color: white;
+
+  }
+
+  .fixedwidth {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  #logodiv {
+    padding-top: 5px;
+    float: left;
+    border-right: 1px solid #91130B;
+    padding-right: 10px;
+  }
+
+  #signindiv {
+    font-weight: bold;
+    padding: 6px 80px 12px 20px;
+    font-size: 0.9em;
+    float: left;
+  }
+
+  #signindiv img {
+    position: relative;
+    top: 3px;
+  }
+
+  #topmenudiv {
+    float: left;
+    height:45px;
+  }
+
+  topmenudiv ul{
+    margin-top:0;
+    padding:0;
+  }
+
+  #topmenudiv li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    border-right:1px solid #990000;
+    height:100%;
+    padding: 13px 20px 13px 20px;
+    position: relative;
+    top: -15px;
+    float: left;
+  }
+
+  #searchdiv{
+    float:left;
+    padding: 5px 0 0 10px;
+  }
+
+  #searchdiv input {
+    height: 25px;
+    border: none;
+    padding: 3px 0 3px 10px;
+    font-size: 0.9em;
+    background-image: url("images/MagnGlass.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 32px 25px;
+  }
+
+  .break {
+    clear:both;
+  }
+
+
+  #newsbar {
+    background-color: #990000;
+    width: 100%;
+    height: 90px;
+    color: white;
+  }
+
+  #newsbar p{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    float: left;
+  }
+
+  #newsheader {
+    font-size: 3em;
+
+  }
+
+  #uk {
+    font-size: 0.7em;
+    padding-left: 20px;
+  }
+
+  #rss {
+    float: right;
+    margin-top: 38px;
+  }
+
+  #rss img {
+    height: 15px;
+  }
+
+  #topicmenu ul{
+    background-color: #3E0C0D;
+    padding: 5px 0 0 5px;
+    margin: 0;
+    height:20px;
+  }
+
+  #topicmenu li{
+    list-style: none;
+    font-size: 0.8em;
+    border-right:1px solid #990000;
+    padding: 0 6px 0 6px;
+    float: left;
+    background-color:none;
+  }
+
+  .selected{
+    background-color: #EDEDED;
+    color: #666666;
+    height: 20px;
+    position: relative;
+    top: -4px;
+    padding-top: 4px !important;
+  }
+
+  #content {
+    width: 100%;
+    color: #535353;
+    font-size: 0.75em;
+  }
+
+  .date{
+    font-weight:bold;
+  }
+
+  h1 {
+    color:#1F4F82;
+    font-size: 2.5em;
+  }
+
+  .headlineimage {
+    float:left;
+  }
+
+  .newsitem{
+    position: relative;
+    left: 10px;
+    top: -15px;
+    width: 250px;
+    float: left;
+    font-size: 1.1em;
+  }
+
+  .newsitem a{
+    color: #1F4F82;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .video {
+    background-image: url("images/playbutton.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    padding-left: 25px;
+  }
+
+  .links{
+    line-height: 1.6em;
+  }
+
+  .sound {
+    background-image: url("images/sound.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    padding-left: 25px;
+  }
+
+  #watchlisten {
+    background-color: #EEEEEE;
+    float: right;
+    position: relative;
+    top: -80px;
+    left: -120px;
+    width: 400px;
+  }
+
+  h2 {
+    color: #505050;
+    margin:10px 0 10px 10px;
+    font-size: 1.8em;
+  }
+
+  .boxes {
+    float: right;
+    height: 13px;
+    margin: 20px 10px 0 0;
+  }
+
+  .leftArrow {
+    float: left;
+    border-right: 1px solid white;
+    height: 150px;
+  }
+
+  .rightArrow {
+    height: 150px;
+  }
+
+  .wlblock {
+    float: left;
+    background-color: #D1700E;
+    width: 170px;
+    height: 150px;
+    border-right: 1px solid white;
+  }
+
+  .wlblock a{
+    color:white;
+  }
+
+  #watchlisten ul{
+    margin: 0;
+    padding: 0 10px 10px 10px;
+
+  }
+
+  #watchlisten li{
+    list-style: none;
+    background-image: url("images/live.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 0 10px 40px;
+    font-size: 1.6em;
+  }
+
+  .bb{
+    border-bottom: 1px solid #DDDDDD;
+  }
+
+
+  .pic1{
+    width: 170px;
+  }
